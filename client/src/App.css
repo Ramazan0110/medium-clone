@@ -1,0 +1,43 @@
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  padding: 10px;
+  background: #1a8917;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.post button {
+  background: #d9534f;
+  margin-top: 10px;
+}
